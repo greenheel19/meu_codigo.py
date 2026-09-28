@@ -1,0 +1,63 @@
+salario = int(input( " Entre com o valor:"))
+
+n1 = int(input(" Entre com o valor:"))
+n2 = int(input(" Entre com o valor:"))
+n3 = int(input(" Entre com o valor:"))
+n4 = int(input(" Entre com o valor:"))
+
+soma =  n1 + n2 + n3 + n4 
+print(soma )
+
+if soma >= salario:
+  print(" Você esta devendo: ")
+else:
+  print(" Sobrou ")
+
+
+sobras = salario - soma
+print(sobras)
+
+#gasto estimado 
+salario = int(input(" Entre com o valor: "))
+
+n1 = int(input(" Entre com o valor:"))
+n2 = int(input(" Entre com o valor:"))
+n3 = int(input(" Entre com o valor:"))
+n4 = int(input(" Entre com o valor:"))
+
+soma =  n1 + n2 + n3 + n4 
+print(soma )
+
+if soma >= salario:
+  print(" Faltou")
+else:
+  print(" Sobrou")
+
+sobras = salario - soma
+print(sobras)
+
+# dezembro
+salario = int(input(" Entre com o valor: "))
+
+n1 = int(input(" Entre com o valor:"))
+n2 = int(input(" Entre com o valor:"))
+n3 = int(input(" Entre com o valor:"))
+n4 = int(input(" Entre com o valor:"))
+
+soma =  n1 + n2 + n3 + n4 
+print(soma )
+
+if soma >= salario:
+  print(" Faltou")
+else:
+  print(" Sobrou")
+
+sobras = salario - soma
+print(sobras)
+
+#automatizar e armazenar informações e dados, sujeitos a alterações posteriores 
+
+
+
+
+
